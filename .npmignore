@@ -1,0 +1,16 @@
+# src
+.eslintrc.json
+
+# build/pack
+*.tgz
+
+# docs
+*.png
+
+# test
+__tests__
+.jest-cache
+test-results
+
+# CI
+.github

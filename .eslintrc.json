@@ -1,0 +1,7 @@
+{
+  "extends": "amex",
+  "rules": {
+    // format them to be readable, don't just discard; const over let
+    "no-nested-ternary": 0
+  }
+}

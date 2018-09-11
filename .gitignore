@@ -1,0 +1,11 @@
+# node & npm
+node_modules
+# private mirror URLs shouldn't be exposed
+package-lock.json
+
+# test
+.jest-cache
+test-results
+
+# build/pack
+*.tgz

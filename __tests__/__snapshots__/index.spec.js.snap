@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`json-parse-context parse error context Buffer input grabs the preceeding lines when the text ends unexpectedly 1`] = `
+"
+  5 | \\"d\\": 4,
+  6 | \\"e\\": 5,
+> 7 | \\"f\\": 6
+    |      ^"
+`;
+
+exports[`json-parse-context parse error context Buffer input has line numbers 1`] = `
+"
+  3 | \\"b\\": 2,
+  4 | \\"c\\": 3
+> 5 | \\"d\\": 4,
+    | ^
+  6 | \\"e\\": 5,
+  7 | \\"f\\": 6"
+`;
+
+exports[`json-parse-context parse error context Buffer input has similar leading spaces stripped 1`] = `
+"
+  1 | {
+  2 |   \\"a\\": 1
+> 3 |   \\"b\\": 2
+    |   ^
+  4 |   \\"c\\": 3
+  5 | }"
+`;
+
+exports[`json-parse-context parse error context Buffer input has similar leading tabs stripped 1`] = `
+"
+  1 | {
+  2 | 	\\"a\\": 1
+> 3 | 	\\"b\\": 2
+    | 	^
+  4 | 	\\"c\\": 3
+  5 | }"
+`;
+
+exports[`json-parse-context parse error context Buffer input indents line numbers to keep them inline when they are different widths 1`] = `
+"
+   98 | 98,
+   99 | 99
+> 100 | 100,
+      | ^
+  101 | 101,
+  102 | 102,"
+`;
+
+exports[`json-parse-context parse error context Buffer input strips leading spaces but leaves tabs that are mixed in 1`] = `
+"
+  1 | 		{
+  2 | 			\\"a\\": 1
+> 3 | 			\\"b\\": 2
+    | 			^
+  4 |   		\\"c\\": 3
+  5 |   	}"
+`;
+
+exports[`json-parse-context parse error context Buffer input strips leading tabs but leaves spaces that are mixed in 1`] = `
+"
+  1 |   {
+  2 |     \\"a\\": 1
+> 3 |     \\"b\\": 2
+    |     ^
+  4 | 	  \\"c\\": 3
+  5 | 	}"
+`;
+
+exports[`json-parse-context parse error context string input grabs the preceeding lines when the text ends unexpectedly 1`] = `
+"
+  5 | \\"d\\": 4,
+  6 | \\"e\\": 5,
+> 7 | \\"f\\": 6
+    |      ^"
+`;
+
+exports[`json-parse-context parse error context string input has line numbers 1`] = `
+"
+  3 | \\"b\\": 2,
+  4 | \\"c\\": 3
+> 5 | \\"d\\": 4,
+    | ^
+  6 | \\"e\\": 5,
+  7 | \\"f\\": 6"
+`;
+
+exports[`json-parse-context parse error context string input has similar leading spaces stripped 1`] = `
+"
+  1 | {
+  2 |   \\"a\\": 1
+> 3 |   \\"b\\": 2
+    |   ^
+  4 |   \\"c\\": 3
+  5 | }"
+`;
+
+exports[`json-parse-context parse error context string input has similar leading tabs stripped 1`] = `
+"
+  1 | {
+  2 | 	\\"a\\": 1
+> 3 | 	\\"b\\": 2
+    | 	^
+  4 | 	\\"c\\": 3
+  5 | }"
+`;
+
+exports[`json-parse-context parse error context string input indents line numbers to keep them inline when they are different widths 1`] = `
+"
+   98 | 98,
+   99 | 99
+> 100 | 100,
+      | ^
+  101 | 101,
+  102 | 102,"
+`;
+
+exports[`json-parse-context parse error context string input strips leading spaces but leaves tabs that are mixed in 1`] = `
+"
+  1 | 		{
+  2 | 			\\"a\\": 1
+> 3 | 			\\"b\\": 2
+    | 			^
+  4 |   		\\"c\\": 3
+  5 |   	}"
+`;
+
+exports[`json-parse-context parse error context string input strips leading tabs but leaves spaces that are mixed in 1`] = `
+"
+  1 |   {
+  2 |     \\"a\\": 1
+> 3 |     \\"b\\": 2
+    |     ^
+  4 | 	  \\"c\\": 3
+  5 | 	}"
+`;
+
+exports[`json-parse-context returns the normal error when not understood 1`] = `"Cannot convert a Symbol value to a string"`;
