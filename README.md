@@ -5,7 +5,7 @@
 > Add the context of a json parse error to the error message with syntax highlighting if possible.
 
 [![npm](https://img.shields.io/npm/v/json-parse-context)](https://www.npmjs.com/package/json-parse-context)
-[![Travis (.org) branch](https://img.shields.io/travis/americanexpress/json-parse-context/main)](https://travis-ci.org/americanexpress/json-parse-context)
+![Main Health Check](https://github.com/americanexpress/json-parse-context/workflows/Main%20Health%20Check/badge.svg)
 
 ## 📖 Table of Contents
 
