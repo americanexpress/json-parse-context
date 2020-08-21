@@ -9,12 +9,11 @@
 
 ## 📖 Table of Contents
 
-* [Features](#Features)
-* [Usage](#Usage)
-* [API](#API)
-* [Available Scripts](#Available%20Scripts)
-* [Git Hooks](#Git%20Hooks)
-* [Contributing](#Contributing)
+* [Features](#-features)
+* [API](#%EF%B8%8F-api)
+* [Available Scripts](#-available-scripts)
+* [Git Hooks](#-git-hooks)
+* [Contributing](#-contributing)
 
 <br />
 
