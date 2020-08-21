@@ -1,6 +1,6 @@
 {
   "name": "json-parse-context",
-  "version": "1.0.0-pre",
+  "version": "1.0.1",
   "description": "Add the context of a json parse error to the error message with syntax highlighting if possible.",
   "main": "index.js",
   "scripts": {
@@ -64,8 +64,14 @@
       "main",
       "next",
       "next-major",
-      { "name": "beta", "prerelease": true },
-      { "name": "alpha", "prerelease": true }
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
     ],
     "plugins": [
       "@semantic-release/commit-analyzer",
