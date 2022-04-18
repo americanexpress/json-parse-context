@@ -7,3 +7,7 @@ test-results
 
 # build/pack
 *.tgz
+
+# ide
+.idea
+.vscode
