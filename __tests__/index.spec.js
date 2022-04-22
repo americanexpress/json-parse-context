@@ -14,9 +14,8 @@
  * permissions and limitations under the License.
  */
 
-// spaces are hard to count, unless they are next to other lines
-// in which case `{n}` is harder to understand
-/* eslint-disable no-regex-spaces */
+/* eslint-disable no-regex-spaces -- spaces are hard to count,
+unless they are next to other lines in which case `{n}` is harder to understand */
 const stripAnsi = require('strip-ansi');
 const jsonParseContext = require('..');
 
@@ -38,7 +37,7 @@ describe('json-parse-context', () => {
     Object.entries({
       'string input': (str) => str,
       'Buffer input': (str) => Buffer.from(str),
-    }).forEach(([name, inputTransform]) => describe(name, () => {
+    }).forEach(([name, inputTransform]) => describe(`${name}`, () => {
       function getParseErrorContextFor(json) {
         try {
           jsonParseContext(inputTransform(json));
@@ -224,3 +223,4 @@ describe('json-parse-context', () => {
     }));
   });
 });
+/* eslint-enable no-regex-spaces -- all disables require an enable */

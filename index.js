@@ -117,7 +117,7 @@ function formatContext(raw, spot, lineCount) {
     pointerLocationInLineOfInterest,
     nextLines,
   } = calculateContextLines(raw, spot, lineCount);
-  const linesTogether = [].concat(previousLines, [lineOfInterest], nextLines);
+  const linesTogether = [...previousLines, lineOfInterest, ...nextLines];
   const lineOfInterestIndex = linesTogether.indexOf(lineOfInterest);
 
   const lines = cardinal.highlight(linesTogether.join('\n')).split('\n');
