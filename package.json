@@ -38,7 +38,7 @@
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "amex-jest-preset": "^6.1.0",
-    "eslint": "^7.15.0",
+    "eslint": "^8.15.0",
     "eslint-config-amex": "^15.2.0",
     "eslint-plugin-jest": "^26.1.4",
     "eslint-plugin-jest-dom": "^4.0.1",
