@@ -26,7 +26,7 @@ describe('json-parse-context', () => {
   });
 
   it('throws a JSON parse error', () => {
-    expect(() => jsonParseContext('{"a":1,}')).toThrowError();
+    expect(() => jsonParseContext('{"a":1,}')).toThrow();
   });
 
   it('returns the normal error when not understood', () => {
