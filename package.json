@@ -8,7 +8,8 @@
     "test:git-history": "commitlint --from origin/main --to HEAD",
     "test:lint": "eslint --ignore-path .gitignore --ext js,snap ./",
     "test:lockfile": "lockfile-lint -p package-lock.json -t npm -a npm -o https: -c -i",
-    "test:unit": "jest"
+    "test:unit": "jest",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -42,7 +43,7 @@
     "eslint-config-amex": "^16.0.0",
     "eslint-plugin-jest": "^26.1.4",
     "eslint-plugin-jest-dom": "^4.0.1",
-    "husky": "^4.2.5",
+    "husky": "^8.0.3",
     "jest": "^28.0.0",
     "lockfile-lint": "^4.3.7",
     "semantic-release": "^17.1.1",
@@ -53,12 +54,6 @@
     "coveragePathIgnorePatterns": [
       "commitlint.config.js"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
   },
   "release": {
     "branches": [
