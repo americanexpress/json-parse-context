@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/americanexpress/json-parse-context#readme",
   "dependencies": {
-    "cardinal": "^2.1.1",
-    "ansicolors": "^0.3.2"
+    "ansicolors": "^0.3.2",
+    "cardinal": "^2.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
@@ -40,7 +40,7 @@
     "@semantic-release/git": "^9.0.0",
     "amex-jest-preset": "^6.1.0",
     "eslint": "^8.15.0",
-    "eslint-config-amex": "^15.2.0",
+    "eslint-config-amex": "^16.0.0",
     "eslint-plugin-jest": "^26.1.4",
     "eslint-plugin-jest-dom": "^4.0.1",
     "husky": "^8.0.3",
