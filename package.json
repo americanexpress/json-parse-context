@@ -36,8 +36,8 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.1",
     "@commitlint/config-conventional": "^17.0.0",
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "amex-jest-preset": "^6.1.0",
     "eslint": "^8.15.0",
     "eslint-config-amex": "^16.0.0",
@@ -46,7 +46,7 @@
     "husky": "^8.0.3",
     "jest": "^28.0.0",
     "lockfile-lint": "^4.3.7",
-    "semantic-release": "^17.1.1",
+    "semantic-release": "^21.0.9",
     "strip-ansi": "^4.0.0"
   },
   "jest": {
