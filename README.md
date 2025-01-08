@@ -86,6 +86,12 @@ message** section in the [contribution guidelines](./CONTRIBUTING.md).
  
  <br />
 
+## Node 20 and above.
+
+This package has been updated to be compatible with Node 20 and Node 22, however since the JSON error messages changed in these versions, automated testing for these versions is not possible.
+
+When Node 18 is EOL, test targets for 20 and 22 will be added.
+
 ## 🏆 Contributing
 
 See [contributing guidelines](./CONTRIBUTING.md)

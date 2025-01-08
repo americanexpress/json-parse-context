@@ -152,7 +152,8 @@ function jsonParseContext(serialized, reviver, opts) {
   try {
     return JSON.parse(serialized, reviver);
   } catch (e) {
-    const syntaxErr = e.message.match(/^unexpected .*position\s+(\d+)/i);
+    const syntaxErr = e.message.match(/^unexpected .*position\s+(\d+)/i)
+      || e.message.match(/^expected .*at position\s+(\d+)/i);
     const endOfJsonErr = e.message.match(/^unexpected end of json.*/i) ? serialized.length - 1 : null;
     const errIdx = syntaxErr
       ? +syntaxErr[1]

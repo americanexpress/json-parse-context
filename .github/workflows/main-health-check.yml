@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: [ '16.x', '18.x' ]
+        node: [ '18.x' ] # This package cannot be tested under node 20+ in cicd due to the changed formatting system. See Readme.
     name: Node ${{ matrix.node }}
     steps:
     - uses: actions/checkout@v2
