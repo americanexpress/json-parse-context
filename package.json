@@ -45,7 +45,7 @@
     "eslint-plugin-jest-dom": "^4.0.3",
     "husky": "^9.0.11",
     "jest": "^30.0.4",
-    "lockfile-lint": "^4.13.2",
+    "lockfile-lint": "^5.0.0",
     "semantic-release": "24.2",
     "strip-ansi": "^6.0.1"
   },
